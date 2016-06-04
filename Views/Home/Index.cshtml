@@ -1,0 +1,193 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div id="wrapper">
+    <!--================= content-holder start ================-->
+    <div class="content-holder" id="dunamic-content">
+        <!--================= container  start================-->
+        <div class="container">
+            <!--content Start -->
+            <section class="content" id="about">
+                <!--content Start -->
+                <div class="anim-content">
+                    <!--=============== About ===============-->
+                    <div class="page-box">
+                        <div class="grid-half">
+                            
+                                
+                           
+                            <h4 class="align-text">Hello, I am <span class="color-text">Usman Shahid</span> <br> Designer and <span class="color-text">Web developer</span> Developer</h4>
+                            <div class="clear"></div>
+                            <div class="separator float-left"></div>
+                            <div class="clear"></div>
+                            <p class="align-text">I'm Student of NCBA&E Lahore.Coding is my passion. I usually spend 14+ hours of my day on laptop.Have firm grip on C++, Sql, c#, ASP.NET and little bit in MVC</p>
+                            <p class="align-text">I love to work in web development , desktop development and hardware coding to get some thing new. </p>
+                        @*    <a href="resume.html" class="ajax button float-button  transition hide-icon"><i class="fa fa-angle-right transition2"></i><span class="text transition color-bg">My resume</span></a>*@
+                            <div class="clear"></div>
+                        </div>
+                        <div class="grid-half">
+                            <div class="single-media">
+                                <div id="single-media" class="owl-carousel">
+                                    <!-- 1 slide -->
+                                    <div class="item">
+                                        <img src="~/images/Main.jpg" class="respimg" alt="">
+                                    </div>
+                                    <!-- 2 slide -->
+                                    <div class="item">
+                                      
+                                    </div>
+                                </div>
+                                <div class="customNavigation">
+                                    <a class="prev-slide transition"><i class="fa fa-angle-left"></i></a>
+                                    <a class="next-slide transition"><i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=============== Fucts ===============-->
+                    <div class="grid-full">
+                        <h3 class="section-title"> Some Facts</h3>
+                        <div class="clear"></div>
+                        <div class="separator"></div>
+                    </div>
+                    <div class="page-box">
+                        <div class="grid-full">
+                            <div id="facts">
+                                <ul>
+                                    <!-- fact 1-->
+                                    <li>
+                                        <div class="facts-box">
+                                            <div class="milestone-counter">
+                                                <div class="stats animaper">
+                                                    <div class="num" data-content="5" data-num="5">0</div>
+                                                </div>
+                                            </div>
+                                            <h3><span> Clients</span></h3>
+                                        </div>s
+                                    </li>
+                                    <!-- fact 2-->
+                                    <li>
+                                        <div class="facts-box">
+                                            <div class="milestone-counter">
+                                                <div class="stats animaper">
+                                                    <div class="num" data-content="10" data-num="10">0</div>
+                                                </div>
+                                            </div>
+                                            <h3 class="right"><span>Projects  </span></h3>
+                                        </div>
+                                    </li>
+                                    <!-- fact 3-->
+                                    <li>
+                                        <div class="facts-box">
+                                            <div class="milestone-counter">
+                                                <div class="stats animaper">
+                                                    <div class="num" data-content="5" data-num="5">0</div>
+                                                </div>
+                                            </div>
+                                            <h3><span>Websites </span></h3>
+                                        </div>
+                                    </li>
+                                    <!-- fact 3-->
+                                    <li>
+                                        <div class="facts-box">
+                                            <div class="milestone-counter">
+                                                <div class="stats animaper">
+                                                    <div class="num" data-content="370" data-num="400">0</div>
+                                                </div>
+                                            </div>
+                                            <h3 class="right"><span>Twitts</span></h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid-full">
+                            <h3 class="section-title"> Services</h3>
+                            <div class="clear"></div>
+                            <div class="separator"></div>
+                        </div>s
+                        <div class="page-box">
+                            <div class="grid-full">
+                                <div class="services-nav">
+                                    <ul>
+                                        <li><a href="#ser1" class="transition slider-link activeslide"><span class="transition">Web development</span><i class="fa fa-trophy"></i></a></li>
+                                        <li><a href="#ser2" class="transition slider-link"><span class="transition">Desktop Applications</span><i class="fa fa-heart-o"></i></a></li>
+                                        <li><a href="#ser3" class="transition slider-link"><span class="transition">Window Phone Development</span><i class="fa fa-pencil"></i></a></li>
+                                    </ul>
+                                </div>
+                                <!--=============== Services ===============-->
+                                <div class="services-slider-holder ">
+                                    <div id="services-slider">
+                                        <ul class="slides">
+                                            <li id="ser1" class="slide">
+                                                <div class="services-container">
+                                                    
+                                                    <h3> Desktop Application</h3>
+                                                    <h4>Client needs</h4>
+                                                    <div class="clear"></div>
+                                                    <div class="separator"></div>
+                                                    <div class="clear"></div>
+                                                    <p>According To Client Requiremen</p>
+                                                    
+                                                           @Html.ActionLink("Contact us", "Contact", "Home", new object { }, new { @class = "ajax button   transition hide-icon" })
+                                                 </div>
+                                            </li>
+                                            <li id="ser2" class="slide">
+                                                <div class="services-container">
+                                                        
+                                                    
+                                                    <h3>Software development</h3>
+                                                    <h4> Client needs</h4>
+                                                    <div class="clear"></div>
+                                                    <div class="separator"></div>
+                                                    <div class="clear"></div>
+                                                     <p>According To Client Requiremen</p>
+                                                      
+
+                                                    @Html.ActionLink("Contact us", "Contact", "Home", new object { }, new { @class = "ajax button   transition hide-icon" })
+                                                       </div>
+                                            </li>
+                                            <li id="ser3" class="slide">
+                                                <div class="services-container">
+                                                
+                                                    <h3>Unity 3d </h3>
+                                                    <h4>Client needs</h4>
+                                                    <div class="clear"></div>
+                                                    <div class="separator"></div>
+                                                    <div class="clear"></div>
+                                                    <p>According To Client Requiremen</p>
+                                                
+                                                    @*  <a href="contact.html" class="ajax button   transition hide-icon"><i class="fa fa-angle-right transition2"></i><span class="text transition color-bg">Order</span></a>*@
+                                            @Html.ActionLink("Contact us", "Contact", "Home", new object { }, new { @class = "ajax button   transition hide-icon" })</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--content end -->
+        </div>
+        <div class="clear"></div>
+        <!--================= Footer start ================-->
+        <div class="container">
+            <footer>
+                <div class="footer-logo"></div>
+                <div class="grid-full">
+                    <div class="policy-box">
+                        <p>&copy; 2016 All Rights Reserved by U&S</p> 
+                    </div>
+                    <div class="to-top-box"><a href="#main" class="scroll-btn transition"><i class="fa fa-angle-up"></i></a></div>
+                </div>
+            </footer>
+        </div>
+        
+    </div>
+    <!-- Content-holder end-->
+</div>

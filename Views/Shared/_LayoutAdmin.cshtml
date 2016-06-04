@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/css/AdminMenuBar.css" rel="stylesheet" />
+    <script src="~/js/MenuBarAdmin.js"></script>
+</head>
+<body>
+    <div id="sse1">
+        <div id="sses1">
+            <ul>
+                <li>@Html.ActionLink("MessageList","Index","AdinF")</li>
+                <li>@Html.ActionLink("IntroList", "IntroList", "AdinF")</li>
+                <li>@Html.ActionLink("ResumeList", "ResumeList", "AdinF")</li>
+               @* <div style="clear:both"></div>*@
+              
+            </ul>
+        </div>
+    </div>
+    @RenderBody()
+</body>
+</html>
